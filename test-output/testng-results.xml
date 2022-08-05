@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18215" started-at="2022-08-05T03:13:30Z" finished-at="2022-08-05T03:13:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18215" started-at="2022-08-05T03:13:30Z" finished-at="2022-08-05T03:13:48Z">
+      <class name="com.mln.android.Calculator">
+        <test-method status="PASS" signature="OpenCalc()[pri:0, instance:com.mln.android.Calculator@6108b2d7]" name="OpenCalc" is-config="true" duration-ms="14517" started-at="2022-08-04T23:13:30Z" finished-at="2022-08-04T23:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCalc -->
+        <test-method status="PASS" signature="getSum()[pri:0, instance:com.mln.android.Calculator@6108b2d7]" name="getSum" duration-ms="3103" started-at="2022-08-04T23:13:44Z" finished-at="2022-08-04T23:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSum -->
+        <test-method status="PASS" signature="closeCalc()[pri:0, instance:com.mln.android.Calculator@6108b2d7]" name="closeCalc" is-config="true" duration-ms="572" started-at="2022-08-04T23:13:48Z" finished-at="2022-08-04T23:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalc -->
+      </class> <!-- com.mln.android.Calculator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
