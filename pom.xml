@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mln</groupId>
-  <artifactId>Selenium_Appium</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mln</groupId>
+	<artifactId>Selenium_Appium</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		 <owner.version>1.0.12</owner.version>
+		<owner.version>1.0.12</owner.version>
 		<appium.java.version>8.1.1</appium.java.version>
 		<extentreport.version>5.0.8</extentreport.version>
 		<restassured.version>4.5.0</restassured.version>
@@ -23,22 +24,38 @@
 		<fixture.factory.version>3.1.0</fixture.factory.version>
 		<reflection.version>0.10.2</reflection.version>
 		<junit.jupiter.version>5.8.2</junit.jupiter.version>
+		<apache.poi.version>5.2.2</apache.poi.version>
+		<apache.poi.ooxml.version>5.2.2</apache.poi.ooxml.version>
 	</properties>
-	
+
 	<dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>${selenium.version}</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
-<dependency>
-    <groupId>io.appium</groupId>
-    <artifactId>java-client</artifactId>
-    <version>${appium.java.version}</version>
-</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>${appium.java.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apache.poi.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache.poi.ooxml.version}</version>
+		</dependency>
+
 
 	</dependencies>
 
