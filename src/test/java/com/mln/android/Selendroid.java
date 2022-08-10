@@ -28,9 +28,19 @@ public class Selendroid {
 	AndroidDriver androidDriver;
 	DesiredCapabilities desiredCapabilities;
 	URL url;
+	@Test
+	public void testToastmsg() throws InterruptedException{
+		Thread.sleep(3000);
+		
+		androidDriver.findElement(By.id("android:id/button1")).click();;
 
+		WebElement btnToast= androidDriver.findElement(By.id("io.selendroid.testapp:id/showToastButton"));
+		btnToast.click();		
+		WebElement txtMsgToast =androidDriver.findElement(By.xpath("/hierarchy/android.widget.Toast"));
+				System.out.println(txtMsgToast.getText());
+	}
 
-	@Test(dataProvider = "registrationData_exceldata")
+	@Test(dataProvider = "registrationData_exceldata", enabled =false)
 	public void registerUser(String UserName,String Email,String Password,String Name ,String ProgramingLanguage,String Adds) throws InterruptedException {
 		
 		Thread.sleep(3000);

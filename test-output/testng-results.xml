@@ -2,56 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32315" started-at="2022-08-06T03:32:27Z" finished-at="2022-08-06T03:33:00Z">
+  <suite name="Default suite" duration-ms="18352" started-at="2022-08-10T16:27:07Z" finished-at="2022-08-10T16:27:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32315" started-at="2022-08-06T03:32:27Z" finished-at="2022-08-06T03:33:00Z">
-      <class name="com.mln.android.Selendroid">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mln.android.Selendroid@42d3bd8b]" name="beforeTest" is-config="true" duration-ms="9397" started-at="2022-08-05T23:32:27Z" finished-at="2022-08-05T23:32:37Z">
+    <test name="Default test" duration-ms="18352" started-at="2022-08-10T16:27:07Z" finished-at="2022-08-10T16:27:25Z">
+      <class name="com.mln.android.AndriodDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.mln.android.AndriodDemo@38082d64]" name="beforeTest" is-config="true" duration-ms="13205" started-at="2022-08-10T12:27:07Z" finished-at="2022-08-10T12:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="registerUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mln.android.Selendroid@42d3bd8b]" name="registerUser" duration-ms="21417" started-at="2022-08-05T23:32:38Z" data-provider="registrationData_exceldata" finished-at="2022-08-05T23:32:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lakshmi_Mohan02]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lakme88@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[LakshmiNarasimhan ]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Java]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="f()[pri:0, instance:com.mln.android.AndriodDemo@38082d64]" name="f" duration-ms="4523" started-at="2022-08-10T12:27:20Z" finished-at="2022-08-10T12:27:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.mln.android.Selendroid@42d3bd8b]" name="afterTest" is-config="true" duration-ms="522" started-at="2022-08-05T23:32:59Z" finished-at="2022-08-05T23:33:00Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.mln.android.AndriodDemo@38082d64]" name="afterTest" is-config="true" duration-ms="607" started-at="2022-08-10T12:27:25Z" finished-at="2022-08-10T12:27:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.mln.android.Selendroid -->
+      </class> <!-- com.mln.android.AndriodDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
